@@ -290,7 +290,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const primaryCTA = heroContent.querySelector('.cta-primary');
             if (primaryCTA) {
                 primaryCTA.innerHTML = 'WhatsApp for Instant Quote <i class="fab fa-whatsapp"></i>';
-                primaryCTA.href = 'https://wa.me/27713647124?text=Hi%2C%20I%20need%20a%20logistics%20quote%20in%20KZN.';
+                primaryCTA.href = 'https://wa.me/27613140218?text=Hi%2C%20I%20need%20a%20logistics%20quote%20in%20KZN.';
             }
         }
 
@@ -336,7 +336,7 @@ document.addEventListener('DOMContentLoaded', () => {
         input.addEventListener('input', function () {
             // Strip non-digits
             let v = this.value.replace(/\D/g, '');
-            // Format: 071 364 7124
+            // Format: +27 61 314 0218
             if (v.length > 3 && v.length <= 6)       v = v.slice(0,3) + ' ' + v.slice(3);
             else if (v.length > 6)                    v = v.slice(0,3) + ' ' + v.slice(3,6) + ' ' + v.slice(6,10);
             this.value = v;

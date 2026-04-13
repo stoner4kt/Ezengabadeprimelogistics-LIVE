@@ -1,5 +1,23 @@
+# Ezengabade Prime Logistics robots policy
 User-agent: *
 Allow: /
 Disallow: /thank-you.html
 
+# Explicitly allow major crawlers used by search and AI assistants
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
 Sitemap: https://ezengabadeprimelogistics.co.za/sitemap.xml
+Host: ezengabadeprimelogistics.co.za
